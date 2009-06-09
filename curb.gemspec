@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.name    = "curb"
   s.authors = ["Ross Bamford", "Todd A. Fisher"]
-  s.version = '0.2.8.0'
-  s.date    = '2009-03-13'
+  s.version = '0.3.0.0'
+  s.date    = '2009-06-08'
   s.description = %q{Curb (probably CUrl-RuBy or something) provides Ruby-language bindings for the libcurl(3), a fully-featured client-side URL transfer library. cURL and libcurl live at http://curl.haxx.se/}
   s.email   = 'todd.fisher@gmail.com'
   s.extra_rdoc_files = ['LICENSE', 'README']
   
-  s.files = ["LICENSE", "README", "Rakefile", "doc.rb", "ext/extconf.rb", "lib/curb.rb", "lib/curl.rb", "ext/curb.c", "ext/curb_postfield.c", "ext/curb_multi.c", "ext/curb_errors.c", "ext/curb_easy.c", "ext/curb_easy.h", "ext/curb_errors.h", "ext/curb_macros.h", "ext/curb.h", "ext/curb_postfield.h", "ext/curb_config.h", "ext/curb_multi.h"]
+  s.files = ["LICENSE", "README", "Rakefile", "doc.rb", "ext/extconf.rb", "lib/curb.rb", "lib/curl.rb", "ext/curb.c", "ext/curb_postfield.c", "ext/curb_multi.c", "ext/curb_errors.c", "ext/curb_easy.c", "ext/curb_easy.h", "ext/curb_errors.h", "ext/curb_macros.h", "ext/curb.h", "ext/curb_postfield.h", "ext/curb_multi.h"]
   #### Load-time details
   s.require_paths = ['lib','ext']
   s.rubyforge_project = 'curb'
